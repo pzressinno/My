@@ -1,0 +1,78 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                16.393491983413696,
+                16.312051,
+                1.1403590000000001,
+                430236,
+                440156,
+                1654496895.616842,
+                19164946421083
+            ],
+            "end_perf": [
+                16.414283037185669,
+                16.317457999999998,
+                1.1464490000000001,
+                431228,
+                440156,
+                19165006722783,
+                0,
+                0
+            ],
+            "child_modules": {
+                "_vcs_unit__658813652": 1,
+                "asyn_fifo_vseq_pkg": 1,
+                "_vcs_msglog": 1,
+                "uvm_pkg": 1,
+                "asyn_fifo_tb": 1,
+                "asyn_fifo_seq_pkg": 1,
+                "uvm_custom_install_verdi_recording": 1,
+                "vcs_paramclassrepository": 1,
+                "uvm_custom_install_recording": 1,
+                "std": 1,
+                "fifo_agent_pkg": 1,
+                "_vcs_DPI_package": 1,
+                "asyn_fifo_test_pkg": 1,
+                "asyn_fifo_env_pkg": 1
+            },
+            "nRouts": 5,
+            "nQuads": 0,
+            "nMops": 0
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 10132,
+            "text": 418,
+            "checksum": 0,
+            "mode": 4
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [],
+    "stat": {
+        "ru_self_end": {
+            "ru_nivcsw": 233,
+            "ru_utime_sec": 16.429945,
+            "ru_minflt": 115614,
+            "ru_stime_sec": 1.1558539999999999,
+            "ru_maxrss_kb": 181328,
+            "ru_nvcsw": 540,
+            "ru_majflt": 0
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 39,
+            "ru_utime_sec": 0.62676699999999996,
+            "ru_minflt": 24494,
+            "ru_stime_sec": 0.801176,
+            "ru_maxrss_kb": 119872,
+            "ru_nvcsw": 88,
+            "ru_majflt": 0
+        },
+        "cpu_cycles_end": 19165364332310,
+        "peak_mem_kb": 440156
+    }
+}

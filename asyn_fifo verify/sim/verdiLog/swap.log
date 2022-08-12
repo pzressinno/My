@@ -1,0 +1,42 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 73728 bytes [need 72K bytes if disable swap]
+
+used block: 2 [memory(2) file(0)]
+                 [ 8K(1) 64K(1) { total 72K bytes } ]
+overhead: (9522) bytes for (2) blocks [Average: (4761) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 19K(bytes) [3K bytes compressed data from file]
+access => 48167(times) 378M(bytes)
+          [hit ratio: 99.9979%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/ICer/mine/proj/asyn_fifo/sim/verdiLog)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (4)
+closeHead: (1)
+closeTail: (2)
+openCnt: (2)
+fid(3): fd(0) fileName(/home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast_test22051919_simv.daidir/kdb.elab++/work.lib++/uvm_custom_install_verdi_recorder.sv.tdc)
+	size(13403) lastModTime(1652959165) curModTime(1652959165)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(2): fd(29) fileName(/home/ICer/mine/proj/asyn_fifo/sim/verdiLog/_swap_0001#8323328#26380)
+	size(0) lastModTime(0) curModTime(1652961800)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast_test22051919_simv.daidir/kdb.elab++/work.lib++/tb.sv.tdc)
+	size(5371) lastModTime(1652959165) curModTime(1652959165)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(15708ef0) pre(156fa830) next(0)
+version(200506)
+date(Sep 28 2018 10:00:16)

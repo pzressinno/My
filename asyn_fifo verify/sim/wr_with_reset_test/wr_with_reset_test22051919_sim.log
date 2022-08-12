@@ -1,0 +1,106 @@
+Command: /home/ICer/mine/proj/asyn_fifo/sim/./top_lib/wr_with_reset_test22051919_simv +fsdb+delta +UVM_TESTNAME=wr_with_reset_test +fsdb+sva_success -l ./wr_with_reset_test/wr_with_reset_test22051919_sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  May 19 19:13 2022
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/ICer/mine/proj/asyn_fifo/sim/../agents/fifo_agent/fifo_if.sv, 63
+fifo_if, "fifo_if::exception_write_cg"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'fifo_if::exception_write_cg'
+  
+  Covergroup Instance: exception_write_cg 
+  Design hierarchy: asyn_fifo_tb.FIFO
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/ICer/mine/proj/asyn_fifo/sim/../agents/fifo_agent/fifo_if.sv, 72
+fifo_if, "fifo_if::exception_read_cg"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'fifo_if::exception_read_cg'
+  
+  Covergroup Instance: exception_read_cg 
+  Design hierarchy: asyn_fifo_tb.FIFO
+
+UVM_INFO @ 0: reporter [RNTST] Running test wr_with_reset_test...
+UVM_INFO ../uvm_tb/tb/tb.sv(34) @ 0: reporter [UVM_TOP_TB] RUNNING TEST {wr_with_reset_test} ...
+*Verdi* Loading libsscore_vcs201809.so
+*Verdi* : FSDB_GATE & FSDB_RTL is disabled because delta cycle dumping is set.
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'wr_with_reset_test.fsdb'
+*Verdi* : Enable dumping region information.
+*Verdi* : Enable dumping glitch values.
+*Verdi* : Enable dumping value change sequence.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*Verdi* : Begin traversing the SVA assertions, layer (0).
+*Verdi* : Enable +sva_success dumping.
+*Verdi* : End of traversing the SVA assertions.
+UVM_INFO ../uvm_tb/tb/tb.sv(49) @ 10: reporter [WCLK] Can't configure wclk with config_db correctly,will use default value:10
+UVM_INFO ../uvm_tb/tb/tb.sv(64) @ 10: reporter [RCLK] Can't configure rclk with config_db correctly,will use default value:10
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 2420: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../uvm_tb/env/read_write_scoreboard.sv(98) @ 2420: uvm_test_top.m_env.scb [read_write_scoreboard] There is no comparing errors when reading 60 transaction in writing 66 transaction.
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 2420: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 2420: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    8
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RCLK]     1
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[UVM_TOP_TB]     1
+[WCLK]     1
+[read_write_scoreboard]     1
+
+$finish called from file "/home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time                 2420
+"../agents/fifo_agent/fifo_if.sv", 60: asyn_fifo_tb.FIFO.CONTINUOUS_16_READ, 120 attempts, 24 match
+"../agents/fifo_agent/fifo_if.sv", 54: asyn_fifo_tb.FIFO.CONTINUOUS_16_WRITE, 120 attempts, 27 match
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2420 ns
+CPU Time:      1.490 seconds;       Data structure size:   0.6Mb
+Thu May 19 19:13:24 2022

@@ -1,0 +1,6 @@
+@elabcom rc file Version 1.0
+[oh]
+invokeDir = /home/ICer/mine/proj/asyn_fifo/sim
+hostCommand = -lib /home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast_test22060614_simv.daidir/work -saveLevel -elab /home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast_test22060614_simv.daidir/kdb -simflow -simdir /home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast\
+_test22060614_simv.daidir/kdb_libs -top "uvm_custom_install_recording uvm_custom_install_verdi_recording asyn_fifo_tb" -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389 -SNPS_ELABCOM -saveElab
+simType = VCS

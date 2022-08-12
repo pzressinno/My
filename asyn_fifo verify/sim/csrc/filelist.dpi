@@ -1,0 +1,4 @@
+DPI_STUB_OBJS += ./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.o
+./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.o: ./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.c
+	@$(CC) -I/home/synopsys/vcs-mx/O-2018.09-1/include  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC    -I/home/synopsys/vcs-mx/O-2018.09-1/include  -fPIC -c -o ./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.o ./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.c
+	@strip -g ./../top_lib/read_fast_test22060614_simv.daidir/vc_hdrs.o
