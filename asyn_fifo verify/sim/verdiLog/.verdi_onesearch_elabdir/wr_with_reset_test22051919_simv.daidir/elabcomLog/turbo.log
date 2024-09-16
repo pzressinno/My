@@ -1,7 +1,0 @@
-Command Line: /home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/elabcom -logdir /home/ICer/mine/proj/asyn_fifo/sim/top_lib/wr_with_reset_test22051919_simv.daidir/elabcomLog -simvdaidir /home/ICer/mine/proj/asyn_fifo/sim/top_lib/wr_with_reset_test22051919_simv.daidir -lib /home/ICer/mine/proj/asyn_fifo/sim/top_lib/wr_with_reset_test22051919_simv.daidir/work -saveLevel -elab /home/ICer/mine/proj/asyn_fifo/sim/top_lib/wr_with_reset_test22051919_simv.daidir/kdb -simflow -simdir /home/ICer/mine/proj/asyn_fifo/sim/top_lib/wr_with_reset_test22051919_simv.daidir/kdb_libs -top uvm_custom_install_recording uvm_custom_install_verdi_recording asyn_fifo_tb -ssv -ssy -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389
-uname(Linux IC_EDA 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64)
-[INFO] error/warning message 'C00380' has been suppressed.
-[INFO] error/warning message 'C00381' has been suppressed.
-[INFO] error/warning message 'C00388' has been suppressed.
-[INFO] error/warning message 'C00389' has been suppressed.
-au time 0.751008 0.639787 0.065276 delta 109621248 109621248 total 201248768 201248768

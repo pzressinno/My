@@ -1,4 +1,0 @@
-1 4 this 1
-1 6 resetn 2
-1 47 ../uvm_tb/virtual_sequences/write_reset_vseq.sv 3
-1 4 setn 4

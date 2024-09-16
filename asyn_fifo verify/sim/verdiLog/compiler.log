@@ -1,9 +1,0 @@
-*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
-Command arguments:  -elab  /home/ICer/mine/proj/asyn_fifo/sim/top_lib/read_fast_test22051919_simv.daidir/kdb.elab++  +UVM_TESTNAME=read_fast_test 
-*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
-
-*Warning* failed to find class read_fast_test (+OVM_TESTNAME/UVM_TESTNAME=read_fast_test) 
-or class read_fast_test is not inherited from class ovm_test/uvm_test of package ovm_pkg/uvm_pkg
-
-
-Total	0 error(s),   1 warning(s)
